@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '23.0.1'
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
         minSdkVersion 15
@@ -22,18 +22,18 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:23.+'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:23.+'
 
     //required, enough for most devices.
-    compile 'tv.danmaku.ijk.media:ijkplayer-java:0.6.0'
-    compile 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.6.0'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.6.0'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.6.0'
     //Other ABIs: optional
-//    compile 'tv.danmaku.ijk.media:ijkplayer-armv5:0.6.0'
-    compile 'tv.danmaku.ijk.media:ijkplayer-arm64:0.6.0'
-    compile 'tv.danmaku.ijk.media:ijkplayer-x86:0.6.0'
-    compile 'tv.danmaku.ijk.media:ijkplayer-x86_64:0.6.0'
+//    implementation 'tv.danmaku.ijk.media:ijkplayer-armv5:0.6.0'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-arm64:0.6.0'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-x86:0.6.0'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-x86_64:0.6.0'
     //ExoPlayer as IMediaPlayer: optional, experimental
-    //compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.6.0'
+    //implementation 'tv.danmaku.ijk.media:ijkplayer-exo:0.6.0'
 }
 

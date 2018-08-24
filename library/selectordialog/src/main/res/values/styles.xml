@@ -13,9 +13,9 @@
     </style>
 
     <style name="bottomDialogAnim" parent="android:Animation">
-        <item name="@android:windowEnterAnimation">@anim/bottom_dialog_enter
+        <item name="android:windowEnterAnimation">@anim/bottom_dialog_enter
         </item>
-        <item name="@android:windowExitAnimation">@anim/bottom_dialog_exit
+        <item name="android:windowExitAnimation">@anim/bottom_dialog_exit
         </item>
     </style>
 
@@ -31,9 +31,9 @@
     </style>
 
     <style name="normalDialogAnim" parent="android:Animation">
-        <item name="@android:windowEnterAnimation">@anim/normal_dialog_enter
+        <item name="android:windowEnterAnimation">@anim/normal_dialog_enter
         </item>
-        <item name="@android:windowExitAnimation">@anim/normal_dialog_exit
+        <item name="android:windowExitAnimation">@anim/normal_dialog_exit
         </item>
     </style>
 

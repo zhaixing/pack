@@ -21,7 +21,8 @@ import com.jaydenxiao.common.commonwidget.StatusBarCompat;
 import com.jaydenxiao.common.daynightmodeutils.ChangeModeController;
 import com.umeng.analytics.MobclickAgent;
 
-import butterknife.ButterKnife;
+//import butterknife.ButterKnife;
+import butterknife.*;
 
 /**
  * 基类
@@ -278,7 +279,7 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
         if(!isConfigChange){
             AppManager.getAppManager().finishActivity(this);
         }
-        ButterKnife.unbind(this);
+        //ButterKnife.unbind(this);
 
     }
 }
